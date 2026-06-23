@@ -491,9 +491,9 @@ time.sleep(4)
 
 # 3. Descargar e iniciar Cloudflare
 print("Conectando a Cloudflare...")
-!wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
-!chmod +x cloudflared
+#!wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O cloudflared
+#!chmod +x cloudflared
 print("\n" + "="*50)
 print(" Enlace azul que termina en '.trycloudflare.com'")
 print("="*50 + "\n")
-!./cloudflared tunnel --url http://localhost:8501
+#!./cloudflared tunnel --url http://localhost:8501
