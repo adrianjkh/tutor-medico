@@ -24,7 +24,7 @@ st.title("¡HOLA! El servidor está vivo.")
 # ==========================================
 # CONFIGURACIÓN DE IA (GEMINI)
 # ==========================================
-API_KEY = "AQ.Ab8RN6IwUwWbb6L1Enf6iJWz20ZKlgOZ1MZ4dVAh0viTnfM_EQ"
+API_KEY = "AQ.Ab8RN6IId32Pq66MPZ48lCQOwfNesmN8EDVeZFCn_1FvJx5yBg"
 genai.configure(api_key=API_KEY)
 
 nombre_modelo_permitido = 'gemini-pro'
