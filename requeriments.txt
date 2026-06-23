@@ -1,6 +1,6 @@
 streamlit
+google-generativeai
 torch
 torchvision
-google-generativeai
-Pillow
+pillow
 pandas
