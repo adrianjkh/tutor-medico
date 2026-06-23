@@ -19,7 +19,8 @@ Original file is located at
 # # CONFIGURACIÓN DE LA PÁGINA
 # # ==========================================
 # st.set_page_config(page_title="Tutor Médico", page_icon="", layout="wide")
-# 
+# st.title("¡HOLA! El servidor está vivo.") # <-- AÑADE ESTA LÍNEA AQUÍ
+
 # # ==========================================
 # # CONFIGURACIÓN DE IA (GEMINI)
 # # ==========================================
