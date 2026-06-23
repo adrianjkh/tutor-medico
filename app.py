@@ -461,22 +461,4 @@ Original file is located at
 #                 else:
 #                     st.error(" Reprobado. El Tutor te recomienda volver a repasar los conceptos antes del siguiente intento.")
 
-import os
-import subprocess
-import threading
-import time
-
-# 1. Limpiar procesos anteriores que estén trabando la celda
-print("Limpiando memoria trabada...")
-os.system("pkill -f streamlit")
-os.system("pkill -f cloudflared")
-time.sleep(2)
-
-# 2. Iniciar Streamlit en el fondo
-print("Iniciando la aplicación web...")
-def run_streamlit():
-    subprocess.run(["streamlit", "run", "app.py", "--server.port", "8501", "--server.headless", "true"])
-
-threading.Thread(target=run_streamlit, daemon=True).start()
-time.sleep(4)
 
