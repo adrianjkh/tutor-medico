@@ -1,6 +1,7 @@
-streamlit
-google-generativeai
-torch
-torchvision
-pillow
-pandas
+# CONTROL: REBUILT_ENV_v2
+streamlit>=1.35.0
+google-generativeai>=0.5.4
+torch>=2.2.0 --index-url https://download.pytorch.org/whl/cpu
+torchvision>=0.17.0 --index-url https://download.pytorch.org/whl/cpu
+pillow>=10.3.0
+pandas>=2.2.0
