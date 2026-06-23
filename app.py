@@ -192,7 +192,7 @@ elif menu == " Teoría Profunda":
 
         st.subheader("Fase A: Redimensionamiento (Resize) y Normalización")
         st.markdown("Las imágenes médicas originales solían tener dimensiones de 512x512 píxeles. Procesar esto consumiría una cantidad excesiva de RAM de video (VRAM). Por lo tanto, el primer paso es comprimirlas a tensores de **128x128 píxeles**.")
-        st.markdown("Luego, aplicamos la **Normalización**. Los píxeles tienen valores de 0 a 255. La red neuronal trabaja mejor con números pequeños, por lo que estandarizamos estos valores entre -1 y 1 usando una media ($\mu$) y desviación estándar ($\sigma$) de 0.5:")
+        st.markdown(r"Luego, aplicamos la **Normalización**. Los píxeles tienen valores de 0 a 255. La red neuronal trabaja mejor con números pequeños, por lo que estandarizamos estos valores entre -1 y 1 usando una media ($\mu$) y desviación estándar ($\sigma$) de 0.5:")
         st.latex(r"X_{norm} = \frac{X - \mu}{\sigma} = \frac{X - 0.5}{0.5}")
 
         st.subheader("Fase B: Aumento de Datos (Data Augmentation)")
