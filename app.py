@@ -66,7 +66,7 @@ Original file is located at
 # def cargar_modelo():
 #     dispositivo = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 #     modelo = CNN_Tumores().to(dispositivo)
-#     # Carga los pesos desde tu Google Drive
+#     # Carga los pesos desde Google Drive
 #     ruta_guardado = 'modelo_tumores_pytorch.pth'
 #     modelo.load_state_dict(torch.load(ruta_guardado, map_location=dispositivo))
 #     modelo.eval()
